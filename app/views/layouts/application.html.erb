@@ -11,8 +11,35 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 
   </head>
-
   <body>
+    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+    <a class="navbar-brand">
+      <img src="https://im0-tub-com.yandex.net/i?id=50763bd54f17e7679d7acdaf1752bdc9&n=13">
+    </a>
+        <%= link_to "Add a cocktail", new_cocktail_path, class: "btn btn-dark" %>
+  </div>
     <%= yield %>
+        <!-- </form> -->
+
+        <!-- li class="nav-item">
+          <a class="nav-link" href="#">Messages</a>
+        </li> -->
+      <!-- </ul> -->
+    <!-- </div> -->
+
+    <!-- #div container -->
+      <%= javascript_pack_tag "application" %>
+      <%= stylesheet_pack_tag "application" %>
+
+    <div class="footer">
+      <div class="footer-links">
+        <a href="https://www.instagram.com/360istanbul/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/360istanbull/"><i class="fab fa-facebook"></i></a>
+      </div>
+      <div class="footer-copyright">
+        The best cocktails in Istanbul <i class="fas fa-heart"></i> .
+      </div>
+    </div>
+
   </body>
 </html>
