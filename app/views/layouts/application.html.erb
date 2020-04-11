@@ -13,11 +13,12 @@
   </head>
   <body>
     <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-    <a class="navbar-brand">
+    <a class="navbar-brand" href ="<%= root_path %>">
       <img src="https://im0-tub-com.yandex.net/i?id=50763bd54f17e7679d7acdaf1752bdc9&n=13">
     </a>
         <%= link_to "Add a cocktail", new_cocktail_path, class: "btn btn-dark" %>
   </div>
+
     <%= yield %>
 
     <div class="footer">
