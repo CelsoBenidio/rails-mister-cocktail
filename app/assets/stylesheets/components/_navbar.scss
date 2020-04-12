@@ -2,7 +2,12 @@
   justify-content: space-between;
   background: white;
   margin-bottom: 0;
-  padding: 0.3rem 0.4rem;
+  padding-left: 155px;
+  border-bottom: 1px solid gray;
+  position: sticky;
+  top: 0;
+  padding-right: 155px;
+  height: 70px;
 }
 
 .navbar-lewagon .navbar-collapse {
